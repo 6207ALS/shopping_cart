@@ -1,0 +1,74 @@
+body {
+  background-color: #e9fff2;
+  font-family: Arial;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+button {
+  background-color: #e0e0ff;
+  border: none;
+  border-radius: 5px;
+  margin: 0 0 0 5px;
+  padding: 10px;
+  font-size: 10px;
+}
+
+.actions {
+  justify-content: flex-end;
+  display: flex;
+}
+
+.product, #add-product_form {
+  background-color: #0080002e;
+  border: 2px solid #00800076;
+  border-radius: 10px;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 20px;
+  padding: 20px;
+  display: flex;
+  position: relative;
+}
+
+.product > div {
+  margin: 10px 0;
+}
+
+.productDetailsContainer {
+  flex-direction: row;
+  justify-content: space-between;
+  display: flex;
+}
+
+.productDetails {
+  text-align: right;
+  flex-direction: row;
+  justify-content: space-between;
+  display: flex;
+}
+
+.productDetails > p {
+  margin: 0 0 0 20px;
+}
+
+.deleteItem-button {
+  line-height: none;
+  background-color: #ffb5b5;
+  border: none;
+  border-radius: 40px;
+  align-items: center;
+  padding: 5px 8px;
+  display: inline-flex;
+  position: absolute;
+  top: -10px;
+  right: -10px;
+}
+
+td {
+  text-align: right;
+}
+
+/*# sourceMappingURL=index.61d3354a.css.map */

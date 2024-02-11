@@ -1,0 +1,75 @@
+body {
+	font-family: Arial;
+	background-color: rgb(233, 255, 242);
+}
+
+button:hover {
+	cursor: pointer;
+}
+
+button {
+	font-size: 10px;
+	padding: 10px 10px;
+	margin: 0 0 0 5px;
+	border: none;
+	border-radius: 5px;
+	background-color: rgb(224, 224, 255);
+}
+
+.actions {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.product,
+#add-product_form {
+	background-color: rgba(0, 128, 0, 0.18);
+	position: relative;
+	border: solid 2px rgba(0, 128, 0, 0.461);
+	border-radius: 10px;
+	margin: 20px;
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.product > div {
+	margin: 10px 0;
+}
+
+.productDetailsContainer {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.productDetails {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+
+	text-align: right;
+}
+
+.productDetails > p {
+	margin: 0 0 0 20px;
+}
+
+.deleteItem-button {
+	display: inline-flex;
+	align-items: center;
+
+	line-height: none;
+	position: absolute;
+	top: -10px;
+	right: -10px;
+	padding: 5px 8px;
+	background-color: rgb(255, 181, 181);
+	border: none;
+	border-radius: 40px;
+}
+
+td {
+	text-align: right;
+}
